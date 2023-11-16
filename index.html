@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <title>ToDo_List 👓</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="todo">
+      <div class="item todo-add">
+        <input type="text" name="add" class="add">
+        <button class="btn" id="add">Ajouter</button>
+      </div>
+      <div class="item todo-edit">
+        <input type="text" name="edit" class="edit">
+        <button id="cancel">Cancel</button>
+        <button id="save">Save</button>
+      </div>
+      <div class="todo-items">
+        <div class="items">
+          <div>
+            <input type="radio" name="todo-item" class="radio" id="item-1" value="learn js with PingoCoder">
+            <label for="item-1">learn js with PingoCoder</label>
+          </div>
+        </div>
+        <div class="items-edit">
+          <button id="edit">Edit</button>
+          <button id="delete">Supprimer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script defer src="index.js"></script>
+</body>
+
+</html>
